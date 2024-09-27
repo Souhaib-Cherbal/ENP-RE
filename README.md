@@ -1,7 +1,7 @@
 
 # ENP RE - Electrical Network Parameters Calculation Software
 
-![source files/Logo-ENP.png](source files/Logo-ENP.png)
+![Logo-ENP.png](Logo-ENP.png)
 
 ### Overview
 **ENP RE** is a Python-based Windows software designed for analyzing and calculating electrical network parameters. It offers tools for generating admittance and impedance matrices, as well as running power flow simulations using Gauss-Seidel, Newton-Raphson, and Fast Decoupled Load Flow (FDLF) methods. This software is aimed at students, engineers, and professionals working with electrical power systems, providing both numerical solutions and easy-to-use interfaces.
