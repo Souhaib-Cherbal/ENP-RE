@@ -1,58 +1,42 @@
-
 # ENP RE - Electrical Network Parameters Calculation Software
 
-![Logo-ENP.png](Logo-ENP.png)
+![ENP RE Logo](images/Logo-ENP.png)
 
-### Overview
-**ENP RE** is a Python-based Windows software designed for analyzing and calculating electrical network parameters. It offers tools for generating admittance and impedance matrices, as well as running power flow simulations using Gauss-Seidel, Newton-Raphson, and Fast Decoupled Load Flow (FDLF) methods. This software is aimed at students, engineers, and professionals working with electrical power systems, providing both numerical solutions and easy-to-use interfaces.
+## Overview
+**ENP RE** is a Windows-based software designed for analyzing and calculating electrical network parameters. It offers tools for generating admittance and impedance matrices, as well as running power flow simulations using Gauss-Seidel, Newton-Raphson, and Fast Decoupled Load Flow (FDLF) methods. This software is aimed at students, engineers, and professionals working with electrical power systems, providing both numerical solutions and an easy-to-use interface.
 
-### Features
+## Features
 - **Admittance and Impedance Matrix Calculation:**
   - Calculates the Y-bus (admittance) and Z-bus (impedance) matrices for electrical grids.
 - **Power Flow Simulation:**
   - Simulates the power flow in the network using:
-    - **Gauss-Seidel**
-    - **Newton-Raphson**
-    - **Fast Decoupled Load Flow (FDLF)**
+    - Gauss-Seidel
+    - Newton-Raphson
+    - Fast Decoupled Load Flow (FDLF)
 - **Graphical User Interface (GUI):**
   - Provides an easy-to-navigate interface with visualizations of the input data, matrix generation, and simulation results.
 - **Data Input/Output:**
   - Users can input system data for calculations and save the output results.
-- **License Key Authentication:**
-  - The software requires a license key to run. Example serial code: `3255-6021-8748-1498`.
 
-### Installation Guide
+## Installation Guide
 
-#### System Requirements:
+### System Requirements:
 - **Operating System:** Windows 7 or later
-- **Python Version:** Python 3.x
-- **Dependencies:**
-  - `numpy`
-  - `matplotlib`
-  - `scipy`
-  - `PyQt5` (for GUI)
 
-#### Steps to Install:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/ENP-RE.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd ENP-RE
-   ```
-3. Install the required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the software:
-   ```bash
-   python ENP\ RE.py
-   ```
+### Installation Steps:
+1. Download the `ENP RE Setup v2.0.exe` file from the [releases page](https://github.com/Souhaib-Cherbal/ENP-RE/releases).
+2. Run the installer and follow the on-screen instructions.
+3. Once installed, launch ENP RE from your desktop or start menu.
 
-### Usage Instructions
+### License Key
+When prompted, use the following license key to activate the software:
+```
+3255-6021-8748-1498
+```
+
+## Usage Instructions
 1. **Launching the Software:**
-   After installing the necessary dependencies, run the main Python script `ENP RE.py`. You will be prompted to enter a serial code. Use the provided code: `3255-6021-8748-1498`.
+   Run ENP RE from your desktop or start menu. Enter the provided license key when prompted.
 
 2. **Navigating the Interface:**
    - **Main Page:** Choose the type of network and input the relevant system data.
@@ -60,45 +44,36 @@
    - **Power Flow Simulation:** Choose one of the methods (Gauss-Seidel, Newton-Raphson, or FDLF) and run simulations.
    - **Saving Results:** Results from the simulation can be saved for further analysis.
 
-3. **Source Code Overview:**
-   - **`matrices_verifing.py`:** Verifies the input matrices for validity.
-   - **`powerflow.py`:** Contains algorithms for power flow simulations using Gauss-Seidel, Newton-Raphson, and FDLF methods.
-   - **`RE_UI.py`:** Defines the graphical user interface (GUI) using PyQt5.
-   - **`SysData.py`:** Handles the system data input and management.
-   - **`Admetance_Impedance_calculation.py`:** Performs the calculations for Y-bus and Z-bus matrices.
-   - **`Login_interface.py`:** Manages user login and serial key validation.
-   - **`ENP RE.py`:** Main script that integrates all components and runs the software.
-
-### Screenshots
-Below are some screenshots to help you navigate through the interface:
+## Screenshots
+Here are some screenshots to help you navigate through the interface:
 
 - **Main Interface:**
-  ![Main Page](Logo-ENP.png)
+  ![Main Page](images/main-interface.png)
 - **Matrix Calculations:**
-  Displays the calculated Y-bus and Z-bus matrices.
-
+  ![Matrix Calculations](images/matrix-calculations.png)
 - **Simulation Results:**
-  Power flow analysis results, including voltage levels, currents, and losses.
+  ![Simulation Results](images/simulation-results.png)
 
-*More images can be found in the `/screenshots` folder.*
-
-### Contributions
-Contributions to improve **ENP RE** are welcome! Here’s how you can contribute:
+## Contributions
+Contributions to improve **ENP RE** are welcome! Here's how you can contribute:
 1. Fork the repository.
 2. Create a feature branch (`git checkout -b feature-branch`).
 3. Commit your changes (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-### License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Contact
-For any questions or support, feel free to open an issue or contact the project maintainers.
+## Contact
+For any questions or support, feel free to:
+- Open an issue on GitHub
+- Email: souhaibcherbal@gmail.com
+- LinkedIn: [Souhaib Cherbal](https://www.linkedin.com/in/souhaib-cherbal/)
 
 ---
 
-### GitHub Repository Description
+## GitHub Repository Description
 **ENP RE - Electrical Network Parameters Calculation Software**
 
-A Python-based software for Windows that calculates electrical network admittance and impedance matrices, runs power flow simulations using Gauss-Seidel, Newton-Raphson, and FDLF methods, and provides an intuitive graphical interface for easy usage.
+A Windows application for calculating electrical network admittance and impedance matrices, running power flow simulations using Gauss-Seidel, Newton-Raphson, and FDLF methods, with an intuitive graphical interface.
