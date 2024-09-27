@@ -46,7 +46,7 @@ Power flow studies are essential for planning the construction and expansion of 
 
 These methods allow users to obtain solutions for network quantities in normal, balanced operation under steady-state conditions, including node voltages, injected powers at nodes, and power flowing through lines.
 
-![Power Flow Analysis](images/L'écoulement%20de%20puissance.png)
+![Power Flow Analysis](images/L’écoulement%20de%20puissance.png)
 
 ## Installation Guide
 
