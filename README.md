@@ -30,12 +30,12 @@ An electrical network is a set of infrastructures that allow the transmission of
 #### Admittance Matrix
 The admittance matrix (Y-bus) represents the topology of an electrical network and contains all the information about the network. It can be described in matrix form and is essential for network analysis.
 
-![Admittance Matrix](images/Main%20page%20Matrice%20Admitance.png)
+![Admittance Matrix](images/Matrice Admitance.png)
 
 #### Impedance Matrix
 The impedance matrix (Z-bus) is a matrix representation of the impedances between different nodes (or buses) in the network. Each element Zij represents the impedance between node i and node j. This matrix is crucial for analyzing network behavior, particularly for calculating short-circuit currents, load distributions, and conducting stability and network protection studies.
 
-![Impedance Matrix](images/Main%20page%20Matrice%20Impedance.png)
+![Impedance Matrix](images/Matrice Impedance.png)
 
 ### Power Flow Analysis
 Power flow studies are essential for planning the construction and expansion of electrical networks, as well as for their operation and control. ENP RE implements three common numerical methods for power flow analysis:
@@ -46,7 +46,7 @@ Power flow studies are essential for planning the construction and expansion of 
 
 These methods allow users to obtain solutions for network quantities in normal, balanced operation under steady-state conditions, including node voltages, injected powers at nodes, and power flowing through lines.
 
-![Power Flow Analysis](images/Main%20page%20L'écoulement%20de%20puissance%20avec%20Gauss%20seidel.png)
+![Power Flow Analysis](images/L’écoulement de puissance.png)
 
 ## Installation Guide
 
@@ -54,7 +54,7 @@ These methods allow users to obtain solutions for network quantities in normal, 
 - **Operating System:** Windows 7 or later
 
 ### Installation Steps:
-1. Download the `ENP RE Setup v2.0.exe` file from the [releases page](https://github.com/Souhaib-Cherbal/ENP-RE/releases).
+1. Download the `ENP RE Setup v2.0.exe` file from the [releases page]([https://github.com/Souhaib-Cherbal/ENP-RE/releases](https://drive.google.com/drive/folders/1jcPT89-rEU1JJHBo188s34OgdVBhcjdp?usp=sharing)).
 2. Run the installer and follow the on-screen instructions.
 3. Once installed, launch ENP RE from your desktop or start menu.
 
@@ -62,16 +62,16 @@ These methods allow users to obtain solutions for network quantities in normal, 
 The installation process is straightforward:
 
 1. Welcome page:
-   ![Welcome Page](images/Phase%20de%20installation%20Welcome%20page.png)
+   ![Welcome Page](images/instalation phase.png)
 
 2. Enter the serial number:
-   ![Serial Number Page](images/Phase%20de%20installation%20serial%20number%20page.png)
+   ![Serial Number Page](images/enterinig serial number.png)
 
 3. Choose installation location:
-   ![Installation Location](images/Phase%20de%20installation%20installation%20place%20page.png)
+   ![Installation Location](images/choose the instalation place.png)
 
 4. Installation in progress:
-   ![Installation Progress](images/Phase%20de%20installation%20installation....png)
+   ![Installation Progress](images/instalation in progress.png)
 
 ### License Key
 When prompted, use the following license key to activate the software:
@@ -86,30 +86,30 @@ When prompted, use the following license key to activate the software:
 
 2. **Navigating the Interface:**
    - **Main Page:** Choose the type of network and input the relevant system data.
-     ![Main Page](images/Main%20page.png)
+     ![Main Page](images/main page.png)
 
    - **System Selection:** Choose the system you want to analyze.
-     ![System Selection](images/Main%20page%20Choisir%20de%20system.png)
+     ![System Selection](images/choosing the system.png)
 
    - **Data Loading:** Load the system data for analysis.
-     ![Data Loading](images/Main%20page%20chargement%20des%20données.png)
+     ![Data Loading](images/loading data.png)
 
    - **Admittance Matrix:** Calculate and view the Y-bus matrix.
-     ![Admittance Matrix](images/Main%20page%20Matrice%20Admitance.png)
+     ![Admittance Matrix](images/admitance matrix.png)
 
    - **Impedance Matrix:** Calculate and view the Z-bus matrix.
-     ![Impedance Matrix](images/Main%20page%20Matrice%20Impedance.png)
+     ![Impedance Matrix](images/impedance matrix.png)
 
    - **Power Flow Simulation:** Choose one of the methods:
      - Gauss-Seidel
-       ![Gauss-Seidel](images/Main%20page%20L'écoulement%20de%20puissance%20avec%20Gauss%20seidel.png)
+       ![Gauss-Seidel](images/powerflow gauss seidel.png)
      - Newton-Raphson
-       ![Newton-Raphson](images/Main%20page%20L'écoulement%20de%20puissance%20avec%20Newthon-Raphson.png)
+       ![Newton-Raphson](images/powerflow newton raphson.png)
      - Fast Decoupled Load Flow (FDLF)
-       ![FDLF](images/Main%20page%20L'écoulement%20de%20puissance%20avec%20FDLF.png)
+       ![FDLF](images/powerflow FDLF.png)
 
    - **Saving Results:** Save the simulation results for further analysis.
-     ![Save Results](images/Main%20page%20sauvegarder%20les%20resultats.png)
+     ![Save Results](images/saving results.png)
 
 ## Contributions
 Contributions to improve **ENP RE** are welcome! Here's how you can contribute:
@@ -120,7 +120,7 @@ Contributions to improve **ENP RE** are welcome! Here's how you can contribute:
 5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
 
 ## Contact
 For any questions or support, feel free to:
@@ -128,9 +128,4 @@ For any questions or support, feel free to:
 - Email: souhaibcherbal@gmail.com
 - LinkedIn: [Souhaib Cherbal](https://www.linkedin.com/in/souhaib-cherbal/)
 
----
 
-## GitHub Repository Description
-**ENP RE - Electrical Network Parameters Calculation Software**
-
-A Windows application for calculating electrical network admittance and impedance matrices, running power flow simulations using Gauss-Seidel, Newton-Raphson, and FDLF methods, with an intuitive graphical interface.
