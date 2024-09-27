@@ -111,53 +111,54 @@ When prompted, use the following license key to activate the software:
    - **Saving Results:** Save the simulation results for further analysis.
      ![Save Results](images/saving%20results.png)
 
-## Future Feature Additions
+## Possible Future Feature Additions
 
-We are constantly working to improve ENP RE and expand its capabilities. Here are some potential feature additions that we are considering for future releases:
+As the sole developer of ENP RE, I'm always looking for ways to improve and expand the software's capabilities. Here are some potential feature additions that could be considered for future releases:
 
 ### AI Integration for Enhanced Analysis
 1. **Machine Learning for Fast and Precise Results:**
-   - Implement AI models to predict power flow results, potentially reducing calculation time for large networks.
-   - Use historical data to improve the accuracy of predictions and identify potential network issues.
+   - Potential implementation of AI models to predict power flow results, possibly reducing calculation time for large networks.
+   - Possibility of using historical data to improve the accuracy of predictions and identify potential network issues.
 
 2. **Anomaly Detection:**
-   - Develop AI algorithms to detect unusual patterns or potential faults in the network based on simulation results.
+   - Potential development of AI algorithms to detect unusual patterns or potential faults in the network based on simulation results.
 
 3. **Optimization Suggestions:**
-   - Integrate AI to suggest optimal network configurations for improved efficiency and stability.
+   - Possible integration of AI to suggest optimal network configurations for improved efficiency and stability.
 
-### Additional Planned Features
+### Additional Potential Features
 1. **Real-Time Data Integration:**
-   - Allow integration with SCADA systems to use real-time data for more accurate simulations.
+   - Potential integration with SCADA systems to use real-time data for more accurate simulations.
 
 2. **Renewable Energy Source Modeling:**
-   - Add specific models for solar, wind, and other renewable energy sources to better simulate modern grid scenarios.
+   - Possible addition of specific models for solar, wind, and other renewable energy sources to better simulate modern grid scenarios.
 
 3. **Dynamic Stability Analysis:**
-   - Implement tools for analyzing the dynamic stability of the network under various disturbances.
+   - Consideration of tools for analyzing the dynamic stability of the network under various disturbances.
 
 4. **Fault Analysis Module:**
-   - Develop a comprehensive fault analysis tool to simulate and study various fault scenarios.
+   - Potential development of a comprehensive fault analysis tool to simulate and study various fault scenarios.
 
 5. **3D Network Visualization:**
-   - Create a 3D visualization of the network topology for better understanding and presentation of complex networks.
+   - Possible creation of a 3D visualization of the network topology for better understanding and presentation of complex networks.
 
 6. **Cloud Integration:**
-   - Enable cloud-based computation for handling larger networks and collaborative projects.
+   - Potential enablement of cloud-based computation for handling larger networks and collaborative projects.
 
 7. **Mobile App Companion:**
-   - Develop a mobile app for viewing results and receiving alerts on the go.
+   - Consideration of developing a mobile app for viewing results and receiving alerts on the go.
 
 8. **Scenario Comparison Tool:**
-   - Implement a feature to easily compare results from different network scenarios or configurations.
+   - Possible implementation of a feature to easily compare results from different network scenarios or configurations.
 
 9. **Automatic Report Generation:**
-   - Create a module that generates comprehensive reports based on simulation results, including graphs and recommendations.
+   - Potential creation of a module that generates comprehensive reports based on simulation results, including graphs and recommendations.
 
 10. **API for Third-Party Integration:**
-    - Develop an API to allow integration with other engineering and management tools.
+    - Consideration of developing an API to allow integration with other engineering and management tools.
 
-We welcome feedback and suggestions from our users on these potential features or any other improvements you'd like to see in future versions of ENP RE.
+Please note that these are ideas for potential future developments and not currently planned features. As ENP RE is an individual project, the implementation of these features would depend on available time and resources. Feedback and suggestions from users are always welcome and can help prioritize potential future enhancements.
+
 
 ## Contributions
 Contributions to improve **ENP RE** are welcome! Here's how you can contribute:
