@@ -46,12 +46,31 @@ Power flow studies are essential for planning the construction and expansion of 
 
 These methods allow users to obtain solutions for network quantities in normal, balanced operation under steady-state conditions, including node voltages, injected powers at nodes, and power flowing through lines.
 
-![Power Flow Analysis](images/L’écoulement%20de%20puissance.png)
+![Power Flow Analysis](images/L'écoulement%20de%20puissance.png)
 
 ## Installation Guide
 
 ### System Requirements:
 - **Operating System:** Windows 7 or later
+- **Python Version:** Python 3.x
+
+### Dependencies:
+The following Python libraries are used in ENP RE:
+```python
+import csv
+import numpy as np
+import time
+import sys
+from PyQt5.QtCore import QDir, Qt, QtCore
+from PyQt5.QtWidgets import QTableWidgetItem, QFileDialog, QApplication, QMainWindow, QWidget, QVBoxLayout
+from PyQt5.QtGui import QPixmap, QIcon
+import traceback
+```
+
+To install the required dependencies, you can use pip:
+```
+pip install PyQt5 numpy
+```
 
 ### Installation Steps:
 1. Download the `ENP RE Setup v2.0.exe` file from the [releases page](https://drive.google.com/drive/folders/1jcPT89-rEU1JJHBo188s34OgdVBhcjdp?usp=sharing).
@@ -82,7 +101,7 @@ When prompted, use the following license key to activate the software:
 ## Usage Instructions
 
 1. **Launching the Software:**
-   Run ENP RE from your desktop or start menu. Enter the provided license key when prompted.
+   After installing the necessary dependencies, run the main Python script `ENP RE.py`. You will be prompted to enter a serial code. Use the provided code: `3255-6021-8748-1498`.
 
 2. **Navigating the Interface:**
    - **Main Page:** Choose the type of network and input the relevant system data.
@@ -110,6 +129,15 @@ When prompted, use the following license key to activate the software:
 
    - **Saving Results:** Save the simulation results for further analysis.
      ![Save Results](images/saving%20results.png)
+
+3. **Source Code Overview:**
+   - **`matrices_verifing.py`:** Verifies the input matrices for validity.
+   - **`powerflow.py`:** Contains algorithms for power flow simulations using Gauss-Seidel, Newton-Raphson, and FDLF methods.
+   - **`RE_UI.py`:** Defines the graphical user interface (GUI) using PyQt5.
+   - **`SysData.py`:** Handles the system data input and management.
+   - **`Admetance_Impedance_calculation.py`:** Performs the calculations for Y-bus and Z-bus matrices.
+   - **`Login_interface.py`:** Manages user login and serial key validation.
+   - **`ENP RE.py`:** Main script that integrates all components and runs the software.
 
 ## Possible Future Feature Additions
 
@@ -158,7 +186,6 @@ As the sole developer of ENP RE, I'm always looking for ways to improve and expa
     - Consideration of developing an API to allow integration with other engineering and management tools.
 
 Please note that these are ideas for potential future developments and not currently planned features. As ENP RE is an individual project, the implementation of these features would depend on available time and resources. Feedback and suggestions from users are always welcome and can help prioritize potential future enhancements.
-
 
 ## Contributions
 Contributions to improve **ENP RE** are welcome! Here's how you can contribute:
