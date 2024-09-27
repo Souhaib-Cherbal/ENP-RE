@@ -71,9 +71,4 @@ For any questions or support, feel free to:
 - Email: souhaibcherbal@gmail.com
 - LinkedIn: [Souhaib Cherbal](https://www.linkedin.com/in/souhaib-cherbal/)
 
----
 
-## GitHub Repository Description
-**ENP RE - Electrical Network Parameters Calculation Software**
-
-A Windows application for calculating electrical network admittance and impedance matrices, running power flow simulations using Gauss-Seidel, Newton-Raphson, and FDLF methods, with an intuitive graphical interface.
